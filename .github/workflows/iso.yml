@@ -2,8 +2,6 @@ name: "build isos"
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 9 * * 2"
 
 jobs:
   build-wsl:
